@@ -1,1 +1,38 @@
 /* You can add global styles to this file, and also import other style files */
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 16px;
+  }
+
+  .product-card {
+   
+    border: 1px solid #eee;
+    background-color: #fafafa;
+    margin-top:12px;
+    .card-head{
+        font-size: 14px;
+        margin: auto;
+        width: 200px;
+        padding:8px;
+        text-align: center;
+        display: inline-block;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+      .card-content {
+        margin:4px;
+        font-size: 12px;
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        p{
+            padding:8px;
+        }
+      }
+  }
+  
